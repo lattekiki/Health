@@ -1,0 +1,172 @@
+{
+  "app": {
+    "title_medication": "💊 Medication Reminder",
+    "title_anc": "🤰 Antenatal Care (ANC) Dashboard",
+    "title_chronic": "🩺 Chronic Condition Monitoring",
+    "title_postop": "🩹 Post-Operative Care (PostOP) Dashboard",
+    "subtitle_medication": "Manage your active prescriptions, view safety profiles, and configure schedule alarms.",
+    "subtitle_anc": "Track maternal health progress, scheduled visits, and vital milestones.",
+    "subtitle_chronic": "Monitor vital metrics such as blood pressure, blood glucose, and symptom logs.",
+    "subtitle_postop": "Monitor your surgical recovery, wound healing schedule, and follow-up milestones."
+  },
+  "dates": {
+    "ethiopian_date_label": "Ethiopian Date",
+    "ethiopian_date_sample": "ነሐሴ 9, 2018 ዓ.ም. (Nehase 9, 2018 E.C.)"
+  },
+  "alarm_section": {
+    "expander_title": "⏰ Set Medication Alarm Reminder",
+    "description": "Configure daily push notifications or visual alerts.",
+    "local_time_desc": "Configure daily push notifications using **Ethiopian Local Time (እጅ ሰዓት)**.",
+    "select_medication": "Select Medication",
+    "reminder_time": "Reminder Time",
+    "reminder_time_local": "Reminder Time (Local)",
+    "custom_note": "Custom Note (e.g., Take with full glass of water)",
+    "set_alarm_btn": "Set Alarm",
+    "success_message": "Alarm successfully set for **{med}** at **{time}**!"
+  },
+  "time_slots": [
+    "1:00 ሰዓት (Morning - 7:00 AM)",
+    "2:00 ሰዓት (Morning - 8:00 AM)",
+    "3:00 ሰዓት (Morning - 9:00 AM)",
+    "4:00 ሰዓት (Morning - 10:00 AM)",
+    "5:00 ሰዓት (Late Morning - 11:00 AM)",
+    "6:00 ሰዓት (Midday - 12:00 PM)",
+    "7:00 ሰዓት (Afternoon - 1:00 PM)",
+    "8:00 ሰዓት (Afternoon - 2:00 PM)",
+    "9:00 ሰዓት (Late Afternoon - 3:00 PM)",
+    "10:00 ሰዓት (Evening - 4:00 PM)",
+    "11:00 ሰዓት (Evening - 5:00 PM)",
+    "12:00 ሰዓት (Night - 6:00 PM)"
+  ],
+  "medications_table": {
+    "header_active_prescriptions": "Active Prescriptions Table",
+    "column_drug_name": "Drug name",
+    "column_dose": "Dose",
+    "column_frequency": "Frequency",
+    "column_route": "Route",
+    "column_status": "Status",
+    "instruction": "Click a drug row above to get more information."
+  },
+  "medication_profiles": {
+    "profile_header": "🧪 {drug} Detailed Profile",
+    "side_effects": "⚠️ Side Effects",
+    "best_taken": "🕒 Best Taken Guidelines",
+    "interactions": "🔗 Drug Interactions",
+    "adherence_risk": "📉 Risk of Poor Adherence"
+  },
+"medication_values": {
+    "frequency_twice": "Twice daily",
+    "frequency_every_8":"Every 8 hours",
+    "frequency_daily":"Once daily",
+    "frequency_as_needed":"As needed",
+    "route_oral": "Oral",
+    "status_active": "Active",
+    "status_completed": "Completed"
+  },
+  "anc_section": {
+    "schedule_title": "ANC Visit Schedule",
+    "counseling_title": "📚 Maternal Counseling & Guidance",
+    "counseling_subtitle": "Essential health education and precautions for a safe pregnancy.",
+    "tab_danger": "🚨 Danger Signs",
+    "tab_diet": "🥗 Diet & Nutrition",
+    "tab_hygiene": "🧼 Personal Hygiene",
+    "danger_content": "**Seek immediate medical attention if you experience any of the following danger signs:**\n- Severe vaginal bleeding\n- Swelling of the face, hands, or fingers (sign of pre-eclampsia)\n- Severe, persistent headaches or blurred vision\n- High fever or chills\n- Reduced or absent fetal movement\n- Sudden gush of fluid from the vagina (water breaking early)",
+    "diet_content": "**Recommended Dietary Practices:**\n- **Balanced Meals:** Include a mix of carbohydrates, proteins (lean meats, beans, lentils), and fresh vegetables.\n- **Iron & Folic Acid:** Take prescribed supplements regularly to prevent anemia.\n- **Hydration:** Drink plenty of clean, filtered water throughout the day.\n- **Foods to Avoid:** Unpasteurized dairy, raw or undercooked meats and eggs, and excess caffeine.",
+    "hygiene_content": "**Hygiene & Wellness Guidelines:**\n- **Handwashing:** Wash hands frequently with soap and water, especially before eating and after using the restroom.\n- **Body Care:** Maintain clean clothing and practice regular bathing.\n- **Infection Prevention:** Avoid harsh chemical soaps or douching in the vaginal area to maintain natural flora balance.\n- **Rest:** Ensure adequate rest and sleep in a well-ventilated room."
+  },
+  "chronic_section": {
+    "select_condition": "Select Condition",
+    "conditions": ["Hypertension", "Type 2 Diabetes", "Asthma"],
+    "recent_history_title": "Recent Log History",
+    "recent_history_text": "No critical anomalies reported in the last 7 days.",
+    "hypertension": {
+      "target_bp": "Target BP: Below 130/80 mmHg",
+      "latest_systolic": "Latest Systolic",
+      "latest_diastolic": "Latest Diastolic",
+      "table_title": "📊 Weekly Blood Pressure (BP) Records",
+      "table_subtitle": "Track your daily blood pressure readings (Morning and Evening).",
+      "counseling_title": "📚 Hypertension Counseling & Complications",
+      "tab_lifestyle": "🥗 Lifestyle & Dietary Guidance",
+      "tab_complications": "⚠️ Complications & Warning Signs",
+      "lifestyle_content": "**Recommended Lifestyle Practices for Hypertension:**\n- **Sodium Reduction:** Limit salt intake significantly. Avoid heavily salted foods, processed meats, and excessive bouillon cubes.\n- **DASH Diet:** Focus on fresh fruits, vegetables, whole grains, and low-fat dairy products.\n- **Physical Activity:** Engage in regular moderate exercise, such as brisk walking, for at least 30 minutes most days of the week.\n- **Weight & Stress Management:** Maintain a healthy weight and practice stress-reduction techniques.",
+      "complications_content": "🚨 **ACUTE HYPERTENSIVE CRISIS (Seek Immediate Medical Care):**\n- **Hypertensive Emergency (BP > 180/120 mmHg):** Accompanied by severe headache, chest pain, shortness of breath, sudden vision changes, numbness, or confusion.\n\n📉 **LONG-TERM CHRONIC COMPLICATIONS:**\n- **Cardiovascular Disease:** Increased strain on heart muscles leading to heart failure, coronary artery disease, or heart attacks.\n- **Stroke / Cerebrovascular Accident:** High pressure damaging brain blood vessels, risking blockages or ruptures.\n- **Hypertensive Nephropathy:** Gradual damage to renal blood vessels leading to chronic kidney disease.\n- **Vision Loss:** Damage to retinal blood vessels (hypertensive retinopathy)."
+    },
+    "diabetes": {
+      "target_fbs": "Target Fasting Blood Sugar: 80 - 130 mg/dL",
+      "latest_fbs": "Latest Fasting Glucose",
+      "rbs_table_title": "📊 RBS Daily QID Log (Random Blood Sugar - 4 Times/Day)",
+      "rbs_table_subtitle": "Track your blood sugar levels four times daily: Fasting (Morning), Post-Lunch, Post-Dinner, and Bedtime.",
+      "counseling_title": "📚 Diabetes Counseling & Education",
+      "tab_diet": "🥗 Dietary Guidelines",
+      "tab_complications": "⚠️ Acute & Chronic Complications Guide",
+      "diet_content": "**Recommended Nutritional Habits for Diabetes:**\n- **Complex Carbohydrates:** Choose whole grains, barley (gebta), sorghum, and fiber-rich vegetables over refined starches like white bread or polished teff in excess.\n- **Portion Control:** Maintain consistent meal sizes to prevent sharp glucose spikes.\n- **Healthy Fats & Proteins:** Incorporate legumes (lentils, chickpeas/shiro), lean meats, and healthy plant fats.\n- **Sugar Intake:** Strictly avoid sugary beverages, sodas, and heavy sweets.",
+      "complications_content": "🚨 **ACUTE COMPLICATIONS (Requires Urgent Medical Action):**\n\n1. **Hypoglycemia (Low Blood Sugar - Below 70 mg/dL):**\n  - *Symptoms:* Shakiness, sweating, dizziness, confusion, rapid heartbeat, intense hunger.\n  - *Immediate Action:* Consume 15g of fast-acting carbohydrates (e.g., half a cup of juice or 3 glucose tablets).\n\n2. **Diabetic Ketoacidosis (DKA):**\n  - *Symptoms:* Nausea, vomiting, abdominal pain, shortness of breath, fruity-scented breath, high ketone levels, confusion.\n  - *Note:* Medical emergency common in unmanaged blood glucose.\n\n3. **Hyperglycemic Hyperosmolar State (HHS):**\n  - *Symptoms:* Extremely high blood sugar (>600 mg/dL), severe dehydration, dry mouth, confusion, or drowsiness.",
+      "chronic_complications_warning": "📉 **LONG-TERM CHRONIC COMPLICATIONS:**\n- **Diabetic Nephropathy:** Progressive kidney damage leading to potential chronic kidney failure.\n- **Diabetic Neuropathy:** Nerve injury causing tingling, numbness, or burning pain in the extremities.\n- **Cardiovascular Disease:** Elevated long-term risk of heart attack and stroke.\n- **Diabetic Retinopathy:** Damage to retinal blood vessels leading to potential vision loss."
+    },
+    "asthma": {
+      "target_flow": "Target Peak Flow: >80% of personal best | Daily Controller Compliance",
+      "peak_flow": "Peak Expiratory Flow",
+      "inhaler_adherence": "Inhaler Adherence",
+      "counseling_title": "📚 Asthma Counseling & Acute Exacerbation Guide",
+      "tab_mgmt": "🌬️ Daily Management & Triggers",
+      "tab_attack": "🚨 Signs of Acute Exacerbation",
+      "mgmt_content": "**Daily Control & Prevention:**\n- **Controller Medication:** Take daily preventer inhalers as prescribed, even when feeling well.\n- **Identify Triggers:** Avoid known allergens such as dust, pollen, smoke, strong chemical fumes, and cold air.\n- **Peak Flow Monitoring:** Check your peak flow meter every morning to track lung function trends.",
+      "attack_content": "🚨 **SIGNS OF AN ASTHMA ATTACK (Acute Exacerbation):**\nRecognize these early warning signs and symptoms that indicate your airways are narrowing:\n\n- **Severe Shortness of Breath:** Difficulty catching your breath or feeling breathless with minimal exertion.\n- **Wheezing:** A high-pitched whistling sound when breathing out.\n- **Persistent Cough:** Especially worse at night or early in the morning, triggered by exercise or cold air.\n- **Chest Tightness:** A feeling of pressure or constriction across the chest area.\n- **Peak Flow Drop:** Readings falling below 50-80% of your personal best.\n\n⚠️ **EMERGENCY ACTION:** If quick-relief rescue inhalers (e.g., Salbutamol) do not provide relief, or if you experience bluish lips/face, severe confusion, or inability to speak full sentences, seek **immediate emergency medical care**."
+    }
+  },
+  "postop": {
+    "title": "🩹 Post-Operative Care (PostOP) Dashboard",
+    "subtitle": "Monitor your surgical recovery, wound healing schedule, and follow-up milestones.",
+    "metrics": {
+      "day_label": "Post-Op Day",
+      "day_val": "Day 5",
+      "day_stat": "Stable Recovery",
+      "site_label": "Surgical Site",
+      "site_val": "Abdominal Incision",
+      "site_stat": "Healing Well",
+      "removal_label": "Stitch Removal",
+      "removal_val": "In 5 Days",
+      "removal_stat": "Target Day 10"
+    },
+    "schedule": {
+      "title": "📋 Post-Operative Care & Wound Care Schedule",
+      "desc": "Follow this daily routine to prevent infection and promote optimal wound healing."
+    },
+    "table": {
+      "h1": "Day / Timeline",
+      "h2": "Dressing & Cleaning",
+      "h3": "Activity & Precautions"
+    },
+    "rows": {
+      "r1_t": "Days 1 - 3",
+      "r1_d": "Keep the original primary dressing clean and dry. Do not remove unless instructed by your doctor.",
+      "r1_a": "Strict bed rest with short assisted walks. Avoid lifting heavy objects (>5 kg).",
+      "r2_t": "Days 4 - 7",
+      "r2_d": "Change dressing every 48 hours or immediately if it becomes wet or soiled.",
+      "r2_a": "Gradually increase walking. Avoid submerging the wound in water.",
+      "r3_t": "Days 8 - 10",
+      "r3_d": "Dressing may be left open if the wound is completely dry and sealed.",
+      "r3_a": "Light daily activities. Continue avoiding strenuous workouts.",
+      "r4_t": "Day 10 Onwards",
+      "r4_d": "Wound can remain uncovered. Continue gentle cleaning during showers.",
+      "r4_a": "Return to normal routines following clearance at stitch removal."
+    },
+    "milestone": {
+      "title": "🧵 Stitch / Staple Removal Milestone",
+      "desc": "Proper timing for suture or staple removal based on surgical site healing."
+    },
+    "info_box": "**Scheduled Removal Date:**\n- **Target:** Post-Operative Day 10\n- **Location:** Outpatient Surgical Clinic\n- **Action Required:** Bring your recovery log and discharge summary.",
+    "warning_box": "⚠️ **Red Flag Warning Signs (Report Immediately):**\n- Pus, foul odor, or increasing yellowish drainage from the wound\n- Spreading redness, warmth, or worsening swelling around incision\n- Fever (above 38°C / 100.4°F) or chills\n- Sudden worsening pain or wound separation (dehiscence)"
+  },
+  "input_section": {
+    "title": "📝 Data Input & Logging",
+    "subtitle": "Add new medical records, logs, or medication reminders.",
+    "select_label": "Select Category to Update",
+    "categories": ["Medication", "ANC Record", "Chronic Log (BP/Sugar)", "Post-OP Log"],
+    "entry_label": "New Entry",
+    "name_label": "Patient Full Name",
+    "date_label": "Date",
+    "submit_btn": "Save Entry",
+    "success_msg": "Successfully saved new record for"
+  }
+}
