@@ -74,9 +74,6 @@ menu_selection = st.sidebar.radio(
 )
 
 st.sidebar.markdown("---")
-st.sidebar.info(
-    "**System Status:** Online \n\n*Integrated with local health tracking guidelines.*"
-)
 
 # Map menu selections to their corresponding modules
 modules = {
